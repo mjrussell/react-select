@@ -4,7 +4,7 @@
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Input = require('react-input-autosize');
+var Input = require('react-input-autosize').default;
 var classes = require('classnames');
 var Value = require('./Value');
 var SingleValue = require('./SingleValue');
